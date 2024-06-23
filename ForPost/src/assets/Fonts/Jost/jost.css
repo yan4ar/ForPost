@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "jost-regular", sans-serif;
+    src: url(./static/Jost-Regular.ttf) format('ttf');
+}
+@font-face {
+    font-family: "jost-light", sans-serif;
+    src: url(./static/Jost-Light.ttf) format('ttf');
+}
+@font-face {
+    font-family: "jost-medium", sans-serif;
+    src: url(./static/Jost-Medium.ttf) format('ttf');
+}

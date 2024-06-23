@@ -1,0 +1,28 @@
+.load__block{
+    background: linear-gradient(101.40deg, #DFEFFF,rgba(223,239,255,0.27) 94.2%);
+    border: 1px solid #DC6843;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.load__block::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: -150px;
+    top: 0;
+    height: 100%;
+    width: 150px;
+    background: linear-gradient(to right,transparent 0%,#DC6843 50%,transparent 100%);
+    animation: load 1s cubic-bezier(0.4,0.0,0.2,1) infinite;
+}
+@keyframes load {
+    from{
+        left: -150px;
+    }
+    to{
+        left: 100%;
+    }
+}
+.load__blockLoad::before{
+    animation: none;
+}

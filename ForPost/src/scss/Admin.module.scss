@@ -1,0 +1,27 @@
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.admin__pretitile{
+    margin-top: 65px;
+    font-family: "jost-light", sans-serif;
+    font-size: 28px;
+}
+.admin__title{
+    margin-top: 130px;
+    font-family: "jost-light", sans-serif;
+    font-size: 32px;
+}
+.admin__text{
+    font-family: "jost-regular", sans-serif;
+    margin-left: 50px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.admin__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}

@@ -1,0 +1,13 @@
+@import url(../assets/Fonts/Jost/jost.css);
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "jost-light", sans-serif;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
